@@ -36,7 +36,7 @@ namespace ConsoleApp4
             int LegkevesebbIfo = airPlanes[0].Hours;
             for (int i = 1; i < airPlanes.Count; i++) {
 
-                if (airPlanes[i].Hours > LegkevesebbIfo) { 
+                if (airPlanes[i].Hours < LegkevesebbIfo) { 
                 
                             LegkevesebbIfo = airPlanes[i].Hours;                
                 
@@ -169,3 +169,4 @@ namespace ConsoleApp4
         }
     }
 }
+
